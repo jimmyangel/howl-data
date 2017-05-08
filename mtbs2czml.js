@@ -19,6 +19,7 @@ var mtbsCZML = [
 f.features.forEach(function (feature) {
   //console.warn(Math.ceil(255*feature.properties.severityHighAcres/feature.properties.acres));
   var year = (new Date(feature.properties.ignitionDate)).getUTCFullYear();
+  var cylinderLength = 1000+feature.properties.forestAcres;
   var czmlItem = {
     id: feature.properties.id,
     name: 'Fire Name: ' + feature.properties.name,
@@ -34,7 +35,7 @@ f.features.forEach(function (feature) {
       topRadius: 500+Math.sqrt(feature.properties.acres*4046),
       bottomRadius:  500+Math.sqrt(feature.properties.acres*4046),
       //length: 1000+feature.properties.severityHighAcres,
-      length: 1000+feature.properties.forestAcres,
+      length: cylinderLength,
       outline: false,
       material : {
         solidColor : {
@@ -45,7 +46,7 @@ f.features.forEach(function (feature) {
       }
     },
     position: {
-			cartographicDegrees: feature.geometry.coordinates
+			cartographicDegrees: [feature.geometry.coordinates[0], feature.geometry.coordinates[1], feature.geometry.coordinates[2] + cylinderLength/2]
 		}
   };
 
