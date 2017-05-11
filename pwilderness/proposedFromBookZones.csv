@@ -1,0 +1,1211 @@
+Book Order,Proposed,Unit
+1,Coast Range Wilderness,Arnold Creek
+2,Coast Range Wilderness,Bailey Ridge
+3,Coast Range Wilderness,Barclay Creek
+4,Coast Range Wilderness,Baxter Creek
+5,Coast Range Wilderness,Bear Creek
+6,Coast Range Wilderness,Big Creek
+7,Coast Range Wilderness,Billie Creek
+8,Coast Range Wilderness,Bills Creek
+9,Coast Range Wilderness,Blue Ridge
+10,Coast Range Wilderness,Cape Horn
+11,Coast Range Wilderness,Cascade Head
+12,Coast Range Wilderness,Cedar Creek
+13,Coast Range Wilderness,Cougar Creek
+14,Coast Range Wilderness,Crazy Creek
+15,Coast Range Wilderness,Cummins Creek Additions
+16,Coast Range Wilderness,Deadwood Creek
+17,Coast Range Wilderness,Deerhead Point
+18,Coast Range Wilderness,Dick's Ridge
+19,Coast Range Wilderness,Doerner Fir
+20,Coast Range Wilderness,Drift Creek Additions
+21,Coast Range Wilderness,Boulder Creek
+22,Coast Range Wilderness,Butler Creek
+23,Coast Range Wilderness,Cougar Creek
+24,Coast Range Wilderness,Lloyd Collette
+25,Coast Range Wilderness,Trout Creek
+26,Coast Range Wilderness,Fairview Mountain
+27,Coast Range Wilderness,Fiddle Creek
+28,Coast Range Wilderness,George Creek
+29,Coast Range Wilderness,Green Mountain
+30,Coast Range Wilderness,Greenleaf Creek
+31,Coast Range Wilderness,Gwynn Creek
+32,Coast Range Wilderness,Haney Creek
+33,Coast Range Wilderness,Hoffman Creek
+34,Coast Range Wilderness,Karnowsky Creek
+35,Coast Range Wilderness,Lind Peak
+36,Coast Range Wilderness,Little Wolf Creek
+37,Coast Range Wilderness,Lower Drift Creek
+38,Coast Range Wilderness,Lower Tioga Creek
+39,Coast Range Wilderness,Marys Peak
+40,Coast Range Wilderness,McKinney Creek
+41,Coast Range Wilderness,Middle Fork of the North Fork Smith River
+42,Coast Range Wilderness,Miles Mountain
+43,Coast Range Wilderness,Moon Creek
+44,Coast Range Wilderness,Morris Creek
+45,Coast Range Wilderness,Mount Hebo
+46,Coast Range Wilderness,Mount Popocatepetl
+47,Coast Range Wilderness,North Fork Alsea River
+48,Coast Range Wilderness,North Fork Smith River
+49,Coast Range Wilderness,North Prong Creek
+50,Coast Range Wilderness,Palmer Mountain
+51,Coast Range Wilderness,Parker Creek
+52,Coast Range Wilderness,Randall Hill
+53,Coast Range Wilderness,Rock Creek
+54,Coast Range Wilderness,Rock Creek Wilderness Additions
+55,Coast Range Wilderness,South Fork Smith River (South)
+56,Coast Range Wilderness,South Fork Smith River (North)
+57,Coast Range Wilderness,Swamp Creek
+58,Coast Range Wilderness,Sweet Creek Falls
+59,Coast Range Wilderness,Table Creek
+60,Coast Range Wilderness,Table Mountain
+61,Coast Range Wilderness,Tenmile Ridge
+62,Coast Range Wilderness,Three Buttes
+63,Coast Range Wilderness,Toketa Creek
+64,Coast Range Wilderness,Trask River
+65,Coast Range Wilderness,Upper Drift Creek
+66,Coast Range Wilderness,Upper Tioga Creek
+67,Coast Range Wilderness,Valley of the Giants
+68,Coast Range Wilderness,Vingie Ridge
+69,Coast Range Wilderness,Wasson Creek
+70,Coast Range Wilderness,Windy Peak
+71,Coast Range Wilderness,Yellow Creek
+72,Elk River Wilderness,Bald Mountain
+73,Elk River Wilderness,Coal Falls Creek
+74,Elk River Wilderness,Copper Salmon
+75,Elk River Wilderness,Coquille River Falls
+76,Elk River Wilderness,Grassy Knob Additions
+77,Elk River Wilderness,North Fork Dry Creek
+78,Elk River Wilderness,Rock Creek
+79,Elk River Wilderness,South Fork Sixes River
+80,Elk River Wilderness,Hall Creek
+81,Elk River Wilderness,Iron Mountain
+82,Elk River Wilderness,Jim Hayes Creek
+83,Elk River Wilderness,Milbury Mountain
+84,Elk River Wilderness,Mud Lake
+85,Elk River Wilderness,Panther Creek
+86,Elk River Wilderness,Purple Mountain
+87,Elk River Wilderness,Riggs Creek
+88,Elk River Wilderness,Two by Four Creek
+89,Elk River Wilderness,Wild Rogue Additions
+90,Elk River Wilderness,Panther Ridge
+91,Oregon Dunes Wilderness,Bluebill Lake
+92,Oregon Dunes Wilderness,Goose Pasture
+93,Oregon Dunes Wilderness,North Spit Coos Bay
+94,Oregon Dunes Wilderness,Siuslaw Dunes
+95,Oregon Dunes Wilderness,Sutton Creek
+96,Oregon Dunes Wilderness,Tahkenitch Creek
+97,Oregon Dunes Wilderness,Umpqua Dunes
+98,Oregon Dunes Wilderness,Umpqua North Spit
+99,Kalmiopsis Wilderness Additions,Bear Ridge
+100,Kalmiopsis Wilderness Additions,Bravo Ransom Creek
+101,Kalmiopsis Wilderness Additions,Briggs Creek
+102,Kalmiopsis Wilderness Additions,Buck Creek
+103,Kalmiopsis Wilderness Additions,Dutchy Creek
+104,Kalmiopsis Wilderness Additions,Eagle Creek
+105,Kalmiopsis Wilderness Additions,East Fork Pistol River
+106,Kalmiopsis Wilderness Additions,Eight Dollar Mountain
+107,Kalmiopsis Wilderness Additions,Hog Mountain
+108,Kalmiopsis Wilderness Additions,Hunter Creek
+109,Kalmiopsis Wilderness Additions,Jack Creek
+110,Kalmiopsis Wilderness Additions,Josephine Creek
+111,Kalmiopsis Wilderness Additions,Kalmiopsis Additions
+112,Kalmiopsis Wilderness Additions,Redrock Rainforest
+113,Kalmiopsis Wilderness Additions,Lower Illinois River
+114,Kalmiopsis Wilderness Additions,Rancherie Creek
+115,Kalmiopsis Wilderness Additions,Mineral Rock Fork
+116,Kalmiopsis Wilderness Additions,Mount Emily
+117,Kalmiopsis Wilderness Additions,Myrtle Creek
+118,Kalmiopsis Wilderness Additions,North Fork Pistol River
+119,Kalmiopsis Wilderness Additions,North Fork Smith River
+120,Kalmiopsis Wilderness Additions,Peavine Ridge
+121,Kalmiopsis Wilderness Additions,Pebble Hill
+122,Kalmiopsis Wilderness Additions,Quail Prairie Creek
+123,Kalmiopsis Wilderness Additions,Quail Prairie Mountain
+124,Kalmiopsis Wilderness Additions,Signal Buttes
+125,Kalmiopsis Wilderness Additions,Six Mile Creek
+126,Kalmiopsis Wilderness Additions,Snow Camp Meadow
+127,Kalmiopsis Wilderness Additions,Soldier Creek
+128,Kalmiopsis Wilderness Additions,Sunrise Creek
+129,Kalmiopsis Wilderness Additions,Upper Wheeler Creek
+130,Kalmiopsis Wilderness Additions,Wheeler Creek
+131,Siskiyou Crest Wilderness,Althouse Creek
+132,Siskiyou Crest Wilderness,Ash Flat
+133,Siskiyou Crest Wilderness,Boaz Mountain
+134,Siskiyou Crest Wilderness,Buncom
+135,Siskiyou Crest Wilderness,Burton Butte
+136,Siskiyou Crest Wilderness,Chapman Creek
+137,Siskiyou Crest Wilderness,Chocolate Falls
+138,Siskiyou Crest Wilderness,Cottonwood Creek - Mudusa Flat
+139,Siskiyou Crest Wilderness,Dakubetede
+140,Siskiyou Crest Wilderness,Donomore Peak
+141,Siskiyou Crest Wilderness,Dutch Gulch
+142,Siskiyou Crest Wilderness,Eagle Canyon
+143,Siskiyou Crest Wilderness,Elliot Ridge
+144,Siskiyou Crest Wilderness,Flume Gulch
+145,Siskiyou Crest Wilderness,French Peak
+146,Siskiyou Crest Wilderness,Glades Creek
+147,Siskiyou Crest Wilderness,Greater Enchanted Forest
+148,Siskiyou Crest Wilderness,Humpy Mountain
+149,Siskiyou Crest Wilderness,Indian Creek
+150,Siskiyou Crest Wilderness,Iron Hand
+151,Siskiyou Crest Wilderness,Kinney Mountain
+152,Siskiyou Crest Wilderness,Lake Creek
+153,Siskiyou Crest Wilderness,Lake Peak
+154,Siskiyou Crest Wilderness,Lightening Gulch
+155,Siskiyou Crest Wilderness,Lilly Mountain
+156,Siskiyou Crest Wilderness,Limestone Creek
+157,Siskiyou Crest Wilderness,Little Applegate River
+158,Siskiyou Crest Wilderness,Little Grayback Mountain
+159,Siskiyou Crest Wilderness,Mount Hope
+160,Siskiyou Crest Wilderness,Murphy Mountain
+161,Siskiyou Crest Wilderness,Neil Creek
+162,Siskiyou Crest Wilderness,Nine Mile Peak
+163,Siskiyou Crest Wilderness,Observation Peak
+164,Siskiyou Crest Wilderness,Quartz Gulch
+165,Siskiyou Crest Wilderness,Rabbit Lake
+166,Siskiyou Crest Wilderness,Illinois-Applegate Divide
+167,Siskiyou Crest Wilderness,Red Mountain Creek
+168,Siskiyou Crest Wilderness,Rocky Creek
+169,Siskiyou Crest Wilderness,Round Top Mountain
+170,Siskiyou Crest Wilderness,Seven Mile Ridge
+171,Siskiyou Crest Wilderness,Stein Butte
+172,Siskiyou Crest Wilderness,Stricklin Butte
+173,Siskiyou Crest Wilderness,Wagner Butte
+174,Siskiyou Crest Wilderness,Wellington Mountain
+175,Siskiyou Crest Wilderness,Whiskey Peak
+176,Siskiyou Crest Wilderness,Whiskey Ridge
+177,Siskiyou Crest Wilderness,Wood Rat Mountain
+178,Soda Mountain Wilderness,Jenny Creek
+179,Soda Mountain Wilderness,Pilot Rock
+180,Wild Rogue Wilderness Additions,Ash Gulch
+181,Wild Rogue Wilderness Additions,Bonanza Basin
+182,Wild Rogue Wilderness Additions,Buckhorn Mountain
+183,Wild Rogue Wilderness Additions,Cedar Mountain
+184,Wild Rogue Wilderness Additions,Centennial Gulch
+185,Wild Rogue Wilderness Additions,Colvig Gulch
+186,Wild Rogue Wilderness Additions,East Sardine Creek
+187,Wild Rogue Wilderness Additions,Fall Creek
+188,Wild Rogue Wilderness Additions,Foster Creek
+189,Wild Rogue Wilderness Additions,Greens Creek
+190,Wild Rogue Wilderness Additions,Horn Gulch
+191,Wild Rogue Wilderness Additions,Horse Creek
+192,Wild Rogue Wilderness Additions,Iron Gulch
+193,Wild Rogue Wilderness Additions,Iron Mountain
+194,Wild Rogue Wilderness Additions,Lake of the Woods Mountain
+195,Wild Rogue Wilderness Additions,Little Savage Creek
+196,Wild Rogue Wilderness Additions,Lobster Creek
+197,Wild Rogue Wilderness Additions,Lone Tree Ridge
+198,Wild Rogue Wilderness Additions,Lost Valley
+199,Wild Rogue Wilderness Additions,Maple Gulch
+200,Wild Rogue Wilderness Additions,Monson Valley
+201,Wild Rogue Wilderness Additions,Nine Mile Spring
+202,Wild Rogue Wilderness Additions,Onion Mountain
+203,Wild Rogue Wilderness Additions,Ophir Mountain
+204,Wild Rogue Wilderness Additions,Pickett Creek
+205,Wild Rogue Wilderness Additions,Potato Illahe Mountain
+206,Wild Rogue Wilderness Additions,Quosatana Creek
+207,Wild Rogue Wilderness Additions,Reuben Creek
+208,Wild Rogue Wilderness Additions,Sexton Mountain
+209,Wild Rogue Wilderness Additions,Shan Creek
+210,Wild Rogue Wilderness Additions,Shasta Costa Creek
+211,Wild Rogue Wilderness Additions,Slate Creek
+212,Wild Rogue Wilderness Additions,Stair Creek
+213,Wild Rogue Wilderness Additions,Whiskey Creek
+214,Wild Rogue Wilderness Additions,Wild Rogue Additions
+215,Wild Rogue Wilderness Additions,Billings Creek
+216,Wild Rogue Wilderness Additions,Mule Creek
+217,Wild Rogue Wilderness Additions,South Additions
+218,Wild Rogue Wilderness Additions,Stair Creek
+219,Wild Rogue Wilderness Additions,West Fork Cow Creek
+220,Wild Rogue Wilderness Additions,Zane Grey
+221,Wild Rogue Wilderness Additions,Wilson Creek
+222,Wild Rogue Wilderness Additions,Wolf Creek
+223,Clackamas Wilderness,Big Bottom
+224,Clackamas Wilderness,Black Wolf Meadows
+225,Clackamas Wilderness,Bob Meadow
+226,Clackamas Wilderness,Bull-of-the-Woods/Opal Creek Additions
+227,Clackamas Wilderness,Elk Lake
+228,Clackamas Wilderness,Dickey Peak
+229,Clackamas Wilderness,East Fork Collawash River
+230,Clackamas Wilderness,Hot Springs Fork
+231,Clackamas Wilderness,Nasty Rock
+232,Clackamas Wilderness,North Whetstone Creek
+233,Clackamas Wilderness,Bump Creek
+234,Clackamas Wilderness,Burnt Granite
+235,Clackamas Wilderness,Cottonwood Meadows
+236,Clackamas Wilderness,Ed's Meadow-Clackamas River
+237,Clackamas Wilderness,Fish Creek
+238,Clackamas Wilderness,Hawk Mountain
+239,Clackamas Wilderness,Memaloose Lake
+240,Clackamas Wilderness,Mistletoe-Clackamas River
+241,Clackamas Wilderness,Molalla Headwaters
+242,Clackamas Wilderness,Monon Lake
+243,Clackamas Wilderness,North Pinhead Butte
+244,Clackamas Wilderness,Oak Grove Fork
+245,Clackamas Wilderness,OlaIlie Meadow-Lemiti Butte
+246,Clackamas Wilderness,Olallie Lakes
+247,Clackamas Wilderness,Pyramid Lake
+248,Clackamas Wilderness,Roaring River
+249,Clackamas Wilderness,Salmon-Huckleberry Additions
+250,Clackamas Wilderness,Eagle Creek
+251,Clackamas Wilderness,North Fork Clackamas River Headwaters
+252,Clackamas Wilderness,Scorpion Mountain
+253,Clackamas Wilderness,Sisi Butte
+254,Clackamas Wilderness,Slow Creek
+255,Clackamas Wilderness,South Fork Clackamas River
+256,Clackamas Wilderness,Summit Lake
+257,Clackamas Wilderness,Table Rock Wilderness Additions
+258,Clackamas Wilderness,West Pinhead Butte
+259,Columbia River Gorge Wilderness,Larch Mountain
+260,Columbia River Gorge Wilderness,Mark O. Hatfield Additions
+261,Columbia River Gorge Wilderness,Gorge Face
+262,Columbia River Gorge Wilderness,Indian Mountain
+263,Columbia River Gorge Wilderness,Mount Defiance
+264,Columbia River Gorge Wilderness,Mount Talapus-Table Mountain
+265,Columbia River Gorge Wilderness,Waucoma Ridge
+266,McKenzie Wilderness,Browder Ridge
+267,McKenzie Wilderness,Carpenter Mountain
+268,McKenzie Wilderness,Chucksney Mountain
+269,McKenzie Wilderness,Cook Creek
+270,McKenzie Wilderness,Frissell Crossing
+271,McKenzie Wilderness,Hardy Ridge
+272,McKenzie Wilderness,Indian Ridge
+273,McKenzie Wilderness,Iron Mountain
+274,McKenzie Wilderness,Jimbo Mountain
+275,McKenzie Wilderness,Lava Lake
+276,McKenzie Wilderness,Lookout Mountain
+277,McKenzie Wilderness,Marten Creek
+278,McKenzie Wilderness,McLennan Mountain
+279,McKenzie Wilderness,Mount Hagan
+280,McKenzie Wilderness,Mount Jefferson Additions (Upper Big Meadows)
+281,McKenzie Wilderness,Mount Washington Additions
+282,McKenzie Wilderness,Two Buttes
+283,McKenzie Wilderness,Sand Mountain
+284,McKenzie Wilderness,West Additions
+285,McKenzie Wilderness,West of Big Lake
+286,McKenzie Wilderness,Nimrod Butte
+287,McKenzie Wilderness,Olallie Ridge
+288,McKenzie Wilderness,Ore Creek
+289,McKenzie Wilderness,Quentin Creek
+290,McKenzie Wilderness,Santiam Wagon Road
+291,McKenzie Wilderness,Scout Creek
+292,McKenzie Wilderness,Tamolitch Falls
+293,McKenzie Wilderness,Three Pyramids
+294,McKenzie Wilderness,Tidbits Mountain-Owl Ridge
+295,McKenzie Wilderness,Wildcat Mountain
+296,Mount Hood Wilderness Additions,Abbot Burn
+297,Mount Hood Wilderness Additions,Badger Creek Additions
+298,Mount Hood Wilderness Additions,Eightmile Meadow
+299,Mount Hood Wilderness Additions,Barlow Butte
+300,Mount Hood Wilderness Additions,Basin Point
+301,Mount Hood Wilderness Additions,Big Bend Mountain
+302,Mount Hood Wilderness Additions,Bonney Butte
+303,Mount Hood Wilderness Additions,Boulder Lake
+304,Mount Hood Wilderness Additions,Cedar Creek
+305,Mount Hood Wilderness Additions,Clear Fork Butte
+306,Mount Hood Wilderness Additions,Cougar Creek
+307,Mount Hood Wilderness Additions,Crow Creek
+308,Mount Hood Wilderness Additions,Fifteenmile Creek
+309,Mount Hood Wilderness Additions,Hellroaring Creek
+310,Mount Hood Wilderness Additions,Joes Point
+311,Mount Hood Wilderness Additions,Jones Creek
+312,Mount Hood Wilderness Additions,Jordan Creek
+313,Mount Hood Wilderness Additions,Little Clear Creek
+314,Mount Hood Wilderness Additions,Little Sandy River
+315,Mount Hood Wilderness Additions,Lost Lake Butte
+316,Mount Hood Wilderness Additions,Lower Badger Creek
+317,Mount Hood Wilderness Additions,Lower White River
+318,Mount Hood Wilderness Additions,Marco Creek
+319,Mount Hood Wilderness Additions,Mill Creek Buttes
+320,Mount Hood Wilderness Additions,Mount Hood Additions
+321,Mount Hood Wilderness Additions,Coe Branch
+322,Mount Hood Wilderness Additions,East Bunchgrass Ridge
+323,Mount Hood Wilderness Additions,Red Hill-Middle Fork Hood River Lava Beds
+324,Mount Hood Wilderness Additions,Sandy River
+325,Mount Hood Wilderness Additions,Tilly Jane Creek-Polallie Creek
+326,Mount Hood Wilderness Additions,Upper White River
+327,Mount Hood Wilderness Additions,Zigzag and Little Zigzag Rivers
+328,Mount Hood Wilderness Additions,North Boulder Creek
+329,Mount Hood Wilderness Additions,North Mountain
+330,Mount Hood Wilderness Additions,Roaring River
+331,Mount Hood Wilderness Additions,Salmon Huckleberry Additions
+332,Mount Hood Wilderness Additions,Abbott Burn
+333,Mount Hood Wilderness Additions,Alder Creek
+334,Mount Hood Wilderness Additions,Linney Butte
+335,Mount Hood Wilderness Additions,Salmon River Meadows
+336,Mount Hood Wilderness Additions,West Hunchback Mountain
+337,Mount Hood Wilderness Additions,Salmon River Meadows
+338,Mount Hood Wilderness Additions,Shellrock Mountain
+339,Mount Hood Wilderness Additions,South Fork Bull Run River
+340,Mount Hood Wilderness Additions,Tom Dick and Harry Mountain
+341,Mount Hood Wilderness Additions,Township Meadow
+342,Mount Hood Wilderness Additions,Twin Lakes
+343,Mount Hood Wilderness Additions,Upper Salmon River
+344,North Umpqua Wilderness,Bear Creek
+345,North Umpqua Wilderness,Boulder Creek Additions
+346,North Umpqua Wilderness,Balm Mountain
+347,North Umpqua Wilderness,Illahee Rock
+348,North Umpqua Wilderness,Medicine Creek
+349,North Umpqua Wilderness,Bulldog Rock
+350,North Umpqua Wilderness,Bunker Hill
+351,North Umpqua Wilderness,Canton Creek
+352,North Umpqua Wilderness,Cedar Creek
+353,North Umpqua Wilderness,Chilcoot Mountain
+354,North Umpqua Wilderness,City Creek
+355,North Umpqua Wilderness,Clearwater Falls
+356,North Umpqua Wilderness,Cougar Bluff
+357,North Umpqua Wilderness,Cowhorn Mountain
+358,North Umpqua Wilderness,Dread and Terror Ridge
+359,North Umpqua Wilderness,Dumont Creek
+360,North Umpqua Wilderness,Elbow Butte
+361,North Umpqua Wilderness,Elephant Mountain
+362,North Umpqua Wilderness,Fish Creek
+363,North Umpqua Wilderness,Flat Rock
+364,North Umpqua Wilderness,Garwood Butte
+365,North Umpqua Wilderness,Grotto Falls
+366,North Umpqua Wilderness,Horn Prairie
+367,North Umpqua Wilderness,Horseshoe Bend
+368,North Umpqua Wilderness,Kelsay Valley
+369,North Umpqua Wilderness,Lake West
+370,North Umpqua Wilderness,Lemolo
+371,North Umpqua Wilderness,Lemon Butte
+372,North Umpqua Wilderness,Limpy Creek
+373,North Umpqua Wilderness,Limpy Rock
+374,North Umpqua Wilderness,Mount Bailey
+375,North Umpqua Wilderness,Mount Thielsen Additions
+376,North Umpqua Wilderness,North Umpqua Headwaters
+377,North Umpqua Wilderness,Thielsen Creek
+378,North Umpqua Wilderness,North Crater
+379,North Umpqua Wilderness,Oak Flats
+380,North Umpqua Wilderness,Pass Creek Calapooya Mountains
+381,North Umpqua Wilderness,Pig Iron
+382,North Umpqua Wilderness,Red Cone
+383,North Umpqua Wilderness,Rhododendron Ridge
+384,North Umpqua Wilderness,Rogue-Umpqua Divide Additions
+385,North Umpqua Wilderness,Rolling Grounds
+386,North Umpqua Wilderness,Shadow Falls
+387,North Umpqua Wilderness,Sherwood Butte
+388,North Umpqua Wilderness,Skookum Lake
+389,North Umpqua Wilderness,Spotted Owl Creek
+390,North Umpqua Wilderness,Steamboat Creek
+391,North Umpqua Wilderness,Steelhead Creek
+392,North Umpqua Wilderness,Thorn Prairie
+393,North Umpqua Wilderness,Thunder Creek
+394,North Umpqua Wilderness,Twin Lakes
+395,North Umpqua Wilderness,Warm Springs Creek
+396,North Umpqua Wilderness,Williams Creek
+397,North Umpqua Wilderness,Windy Creek
+398,Rogue-Umpqua Wildernes,Acker Rock
+399,Rogue-Umpqua Wildernes,Bailey Ridge
+400,Rogue-Umpqua Wildernes,Beaver Creek
+401,Rogue-Umpqua Wildernes,Berry Creek
+402,Rogue-Umpqua Wildernes,Bitter Lick Creek
+403,Rogue-Umpqua Wildernes,Blue Gulch
+404,Rogue-Umpqua Wildernes,Board Mountain
+405,Rogue-Umpqua Wildernes,Buckhorn Mountain
+406,Rogue-Umpqua Wildernes,Cedar Springs Mountain
+407,Rogue-Umpqua Wildernes,Coffee Creek
+408,Rogue-Umpqua Wildernes,Collins Ridge
+409,Rogue-Umpqua Wildernes,Donegan Prairie
+410,Rogue-Umpqua Wildernes,Drew Creek
+411,Rogue-Umpqua Wildernes,Dumont Creek
+412,Rogue-Umpqua Wildernes,Elkhorn Creek
+413,Rogue-Umpqua Wildernes,Flood Rock
+414,Rogue-Umpqua Wildernes,Hatchet Creek
+415,Rogue-Umpqua Wildernes,Hawk Mountain
+416,Rogue-Umpqua Wildernes,Horn Prairie
+417,Rogue-Umpqua Wildernes,Last Creek
+418,Rogue-Umpqua Wildernes,Morine Creek
+419,Rogue-Umpqua Wildernes,Mount Stella
+420,Rogue-Umpqua Wildernes,Pipestone Creek - Beaver Creek
+421,Rogue-Umpqua Wildernes,Pass CreekCalapooya Mountains
+422,Rogue-Umpqua Wildernes,Point Nance
+423,Rogue-Umpqua Wildernes,Poole Creek
+424,Rogue-Umpqua Wildernes,Quartz Creek
+425,Rogue-Umpqua Wildernes,Rogue-Umpqua Divide Additions
+426,Rogue-Umpqua Wildernes,Abbott Creek
+427,Rogue-Umpqua Wildernes,Castle Rock Fork
+428,Rogue-Umpqua Wildernes,Fish Lake Creek
+429,Rogue-Umpqua Wildernes,Jackson Creek Headwaters
+430,Rogue-Umpqua Wildernes,Log Creek
+431,Rogue-Umpqua Wildernes,Mosquito Camp
+432,Rogue-Umpqua Wildernes,Paul Pearson I
+433,Rogue-Umpqua Wildernes,Paul Pearson II
+434,Rogue-Umpqua Wildernes,Muir Creek
+435,Rogue-Umpqua Wildernes,Rabbit Ears
+436,Rogue-Umpqua Wildernes,Travail Creek
+437,Rogue-Umpqua Wildernes,Sherwood Butte
+438,Rogue-Umpqua Wildernes,Snowshoe Springs
+439,Rogue-Umpqua Wildernes,South Fork Cow Creek
+440,Rogue-Umpqua Wildernes,Straight Creek
+441,Rogue-Umpqua Wildernes,Surveyor Creek
+442,Rogue-Umpqua Wildernes,Tatouche Peak
+443,Rogue-Umpqua Wildernes,Yellow Jacket
+444,Rogue-Umpqua Wildernes,Yellow Jacket Spring
+445,Rogue-Umpqua Wildernes,Yellow Rock                                            
+446,Santiam Wilderness,Bachelor Mountain
+447,Santiam Wilderness,Blowout Creek
+448,Santiam Wilderness,Box Canyon
+449,Santiam Wilderness,Browder Ridge
+450,Santiam Wilderness,Opal Creek Additions
+451,Santiam Wilderness,Byars Rock
+452,Santiam Wilderness,Elkhorn Creek
+453,Santiam Wilderness,Marten Butte
+454,Santiam Wilderness,Byars Creek
+455,Santiam Wilderness,Cliffs Creek
+456,Santiam Wilderness,Crabtree Valley
+457,Santiam Wilderness,Daley Lake
+458,Santiam Wilderness,Eagle Canyon
+459,Santiam Wilderness,Gordon Meadows
+460,Santiam Wilderness,Hall Ridge
+461,Santiam Wilderness,Hoover Ridge
+462,Santiam Wilderness,Iron Mountain
+463,Santiam Wilderness,Jumpoff Joe
+464,Santiam Wilderness,Lower Quartz Creek
+465,Santiam Wilderness,Menagerie Wilderness Additions
+466,Santiam Wilderness,Moose Mountain
+467,Santiam Wilderness,West Additions
+468,Santiam Wilderness,Middle Santiam Additions
+469,Santiam Wilderness,Gordon Peak
+470,Santiam Wilderness,McQuade Creek
+471,Santiam Wilderness,Minniece Point
+472,Santiam Wilderness,Moose Creek
+473,Santiam Wilderness,Mount Bruno
+474,Santiam Wilderness,Mount Jefferson Additions
+475,Santiam Wilderness,Big Meadows
+476,Santiam Wilderness,Devils Peak
+477,Santiam Wilderness,Grizzly Creek-Puzzle Creek
+478,Santiam Wilderness,Lower Triangulation Peak
+479,Santiam Wilderness,North Additions
+480,Santiam Wilderness,North Breitenbush River
+481,Santiam Wilderness,Pine Ridge
+482,Santiam Wilderness,Woodpecker Ridge
+483,Santiam Wilderness,Olallie Lakes
+484,Santiam Wilderness,Pyramid Creek
+485,Santiam Wilderness,Sardine Mountain
+486,Santiam Wilderness,Scorpion Mountain
+487,Santiam Wilderness,Slate Rock
+488,Santiam Wilderness,Three Pyramids
+489,Santiam Wilderness,Tidbits Mountain-Owl Ridge
+490,Santiam Wilderness,Two Girls
+491,Santiam Wilderness,Upper Quartzville Creek
+492,Santiam Wilderness,Upper Soda
+493,Santiam Wilderness,White Bull Mountain
+494,Santiam Wilderness,Wildcat Mountain
+495,South Cascades Wilderness,Brown Mountain
+496,South Cascades Wilderness,Crater Lake Rim
+497,South Cascades Wilderness,Dead Soldier Meadow
+498,South Cascades Wilderness,Deer Creek
+499,South Cascades Wilderness,Dunlop Meadows
+500,South Cascades Wilderness,Farlow Hill
+501,South Cascades Wilderness,Forked Horn Springs
+502,South Cascades Wilderness,Ginkgo Creek
+503,South Cascades Wilderness,Green Springs Mountain
+504,South Cascades Wilderness,Grizzly Peak
+505,South Cascades Wilderness,Heppsie Mountain
+506,South Cascades Wilderness,Lake West
+507,South Cascades Wilderness,Mill Creek
+508,South Cascades Wilderness,Mount Scott
+509,South Cascades Wilderness,Mount Thielsen Additions
+510,South Cascades Wilderness,Cottonwood Creek
+511,South Cascades Wilderness,Miller Creek
+512,South Cascades Wilderness,Red Cone Spring
+513,South Cascades Wilderness,Mountain Lakes Additions
+514,South Cascades Wilderness,Clover Creek Headwaters
+515,South Cascades Wilderness,Little Aspen Butte
+516,South Cascades Wilderness,Varney Creek
+517,South Cascades Wilderness,West Additions
+518,South Cascades Wilderness,North Crater
+519,South Cascades Wilderness,Poole Hill
+520,South Cascades Wilderness,Red Blanket Mountain
+521,South Cascades Wilderness,Red Cone
+522,South Cascades Wilderness,Service Glades
+523,South Cascades Wilderness,Sky Lakes Additions
+524,South Cascades Wilderness,Beaver Creek
+525,South Cascades Wilderness,Big Meadows
+526,South Cascades Wilderness,Black Bear Swamp
+527,South Cascades Wilderness,Cedar Spring
+528,South Cascades Wilderness,Cherry Creek
+529,South Cascades Wilderness,Crane Creek Headwaters
+530,South Cascades Wilderness,Dole Spring
+531,South Cascades Wilderness,Imnaha Creek-Sumpter Creek
+532,South Cascades Wilderness,Lower Mount McLoughlin
+533,South Cascades Wilderness,Pelican Butte
+534,South Cascades Wilderness,Red Blanket Creek
+535,South Cascades Wilderness,Rye Spur
+536,South Cascades Wilderness,Sevenmile Creek
+537,South Cascades Wilderness,Slinger Rock
+538,South Cascades Wilderness,Sun Creek
+539,South Cascades Wilderness,Union Creek
+540,South Cascades Wilderness,West of Corral Springs
+541,South Cascades Wilderness,Wheeler Creek
+542,Three Sisters Wilderness Additions,Bear Wallow
+543,Three Sisters Wilderness Additions,Charlton Butte
+544,Three Sisters Wilderness Additions,Cultus Mountain
+545,Three Sisters Wilderness Additions,Maiden Peak
+546,Three Sisters Wilderness Additions,Mount Bachelor
+547,Three Sisters Wilderness Additions,Skyliner
+548,Three Sisters Wilderness Additions,Three Sisters Additions
+549,Three Sisters Wilderness Additions,French Pete Addition
+550,Three Sisters Wilderness Additions,Gold Creek
+551,Three Sisters Wilderness Additions,Huckleberry Lake
+552,Three Sisters Wilderness Additions,Lava Camp
+553,Three Sisters Wilderness Additions,Mount David Douglas
+554,Three Sisters Wilderness Additions,Roaring River Headwaters
+555,Three Sisters Wilderness Additions,White Branch Creek
+556,Three Sisters Wilderness Additions,Tumalo Creek
+557,Three Sisters Wilderness Additions,Waldo Lake Additions
+558,Three Sisters Wilderness Additions,North Bank
+559,Three Sisters Wilderness Additions,Salmon Creek
+560,Three Sisters Wilderness Additions,South Fugi Mountain
+561,Three Sisters Wilderness Additions,South Lucky Lake
+562,Three Sisters Wilderness Additions,Three Prairies
+563,Three Sisters Wilderness Additions,Waldo Lake
+564,Upper Deschutes Wilderness,Black Rock
+565,Upper Deschutes Wilderness,Cowhorn Mountain
+566,Upper Deschutes Wilderness,Crane Prairie
+567,Upper Deschutes Wilderness,Davis Lake Lava Flow
+568,Upper Deschutes Wilderness,Davis Mountain
+569,Upper Deschutes Wilderness,Deer Creek
+570,Upper Deschutes Wilderness,Diamond Peak Additions
+571,Upper Deschutes Wilderness,Whitefish Creek
+572,Upper Deschutes Wilderness,Mount Thielsen Additions
+573,Upper Deschutes Wilderness,Little Deschutes River-Big Marsh Creek
+574,Upper Deschutes Wilderness,Upper Deschutes River
+575,Upper Deschutes Wilderness,Odell Creek
+576,Upper Deschutes Wilderness,Siah Butte
+577,Upper Deschutes Wilderness,Snow Creek
+578,Upper Deschutes Wilderness,Walker Rim
+579,Upper Deschutes Wilderness,West of Corral Springs
+580,Upper Willamette Wilderness,Bear Bones Mountain
+581,Upper Willamette Wilderness,Bear Mountain
+582,Upper Willamette Wilderness,Bedrock Creek
+583,Upper Willamette Wilderness,Big Swamp
+584,Upper Willamette Wilderness,Brice Creek
+585,Upper Willamette Wilderness,Buffalo Peak
+586,Upper Willamette Wilderness,Bulldog Rock
+587,Upper Willamette Wilderness,Canton Creek
+588,Upper Willamette Wilderness,Cat Mountain
+589,Upper Willamette Wilderness,Cedar Creek
+590,Upper Willamette Wilderness,Chalk Creek
+591,Upper Willamette Wilderness,Chucksney Mountain
+592,Upper Willamette Wilderness,City Creek
+593,Upper Willamette Wilderness,Clover Patch Butte
+594,Upper Willamette Wilderness,Cowhorn Mountain
+595,Upper Willamette Wilderness,Deception Butte
+596,Upper Willamette Wilderness,Diamond Peak Additions
+597,Upper Willamette Wilderness,Salt Creek
+598,Upper Willamette Wilderness,Upper Hills Creek
+599,Upper Willamette Wilderness,West Additions
+600,Upper Willamette Wilderness,Dome Rock
+601,Upper Willamette Wilderness,Fairview Peak
+602,Upper Willamette Wilderness,Fall Creek
+603,Upper Willamette Wilderness,Groundhog Creek
+604,Upper Willamette Wilderness,Hardesty Mountain
+605,Upper Willamette Wilderness,Heckletooth Mountain
+606,Upper Willamette Wilderness,Huckleberry Mountain
+607,Upper Willamette Wilderness,Kitson Ridge
+608,Upper Willamette Wilderness,Larison Creek
+609,Upper Willamette Wilderness,Larison Rock
+610,Upper Willamette Wilderness,McClean Mountain
+611,Upper Willamette Wilderness,Monterica Creek
+612,Upper Willamette Wilderness,Moss Mountain
+613,Upper Willamette Wilderness,Mule Mountain
+614,Upper Willamette Wilderness,Noonday Ridge
+615,Upper Willamette Wilderness,North Fork- Middle Fork Willamette
+616,Upper Willamette Wilderness,Packard Creek
+617,Upper Willamette Wilderness,Puddin Rock
+618,Upper Willamette Wilderness,Tire Mountain
+619,Upper Willamette Wilderness,Too Much Bear Lake
+620,Upper Willamette Wilderness,Tumblebug Creek
+621,Upper Willamette Wilderness,Warner Creek
+622,Upper Willamette Wilderness,Windfall Creek
+623,Upper Willamette Wilderness,Wolf Mountain
+624,Upper Willamette Wilderness,Youngs Rock
+625,Fremont Rims Wilderness,Abert Rim
+626,Fremont Rims Wilderness,Bald Mountain
+627,Fremont Rims Wilderness,Barry Point
+628,Fremont Rims Wilderness,Basin Springs
+629,Fremont Rims Wilderness,Bear Creek
+630,Fremont Rims Wilderness,Benny Creek
+631,Fremont Rims Wilderness,Blue Mountain
+632,Fremont Rims Wilderness,Boulder Springs
+633,Fremont Rims Wilderness,Brattain Butte
+634,Fremont Rims Wilderness,Buck Mountain
+635,Fremont Rims Wilderness,Chewaucan River
+636,Fremont Rims Wilderness,Club Cliff
+637,Fremont Rims Wilderness,Coleman Rim
+638,Fremont Rims Wilderness,Cox Creek
+639,Fremont Rims Wilderness,Crane Mountain
+640,Fremont Rims Wilderness,Crooked Creek
+641,Fremont Rims Wilderness,Dead Horse Rim
+642,Fremont Rims Wilderness,Deep Creek
+643,Fremont Rims Wilderness,Devils Ball Diamond
+644,Fremont Rims Wilderness,Doe Mountain
+645,Fremont Rims Wilderness,Drake Peak
+646,Fremont Rims Wilderness,East Duncan Creek
+647,Fremont Rims Wilderness,Elder Creek
+648,Fremont Rims Wilderness,Fawn Creek
+649,Fremont Rims Wilderness,Fitzwater Point
+650,Fremont Rims Wilderness,Gearhart Mountain Additions
+651,Fremont Rims Wilderness,Brownsworth Creek-Camp Creek
+652,Fremont Rims Wilderness,Cougar Creek-Dairy Creek
+653,Fremont Rims Wilderness,Nottin Creek
+654,Fremont Rims Wilderness,Government Harvey Pass
+655,Fremont Rims Wilderness,Grasshopper Flat
+656,Fremont Rims Wilderness,Grizzly Peak
+657,Fremont Rims Wilderness,Guyer Creek
+658,Fremont Rims Wilderness,Hadley Butte
+659,Fremont Rims Wilderness,Hager Mountain
+660,Fremont Rims Wilderness,Hanan Trail
+661,Fremont Rims Wilderness,Hay Creek
+662,Fremont Rims Wilderness,Horseshoe Creek
+663,Fremont Rims Wilderness,Horseshoe Meadow
+664,Fremont Rims Wilderness,Jones Canyon
+665,Fremont Rims Wilderness,Juniper Creek
+666,Fremont Rims Wilderness,Little Honey Creek
+667,Fremont Rims Wilderness,Little Muddy Creek
+668,Fremont Rims Wilderness,Lower Sycan Butte
+669,Fremont Rims Wilderness,Mill Creek
+670,Fremont Rims Wilderness,Moss-Pass Butte
+671,Fremont Rims Wilderness,Mount Bidwell
+672,Fremont Rims Wilderness,Muddy Creek
+673,Fremont Rims Wilderness,Myers Canyon
+674,Fremont Rims Wilderness,Newell Creek
+675,Fremont Rims Wilderness,North Fork Deep Creek
+676,Fremont Rims Wilderness,Parker Hills
+677,Fremont Rims Wilderness,Pine Creek
+678,Fremont Rims Wilderness,Ring Corral Creek
+679,Fremont Rims Wilderness,Silver Creek
+680,Fremont Rims Wilderness,Skull Creek
+681,Fremont Rims Wilderness,Smoke Creek
+682,Fremont Rims Wilderness,South Fork Sycan River
+683,Fremont Rims Wilderness,Thomas Creek
+684,Fremont Rims Wilderness,Upper Lapham Creek
+685,Fremont Rims Wilderness,Wart Peak
+686,Fremont Rims Wilderness,Watson Peak
+687,Fremont Rims Wilderness,White Rock Creek
+688,Fremont Rims Wilderness,Winter Ridge
+689,Klamath Basin Wilderness,Abraham Flat
+690,Klamath Basin Wilderness,Adobe Flat
+691,Klamath Basin Wilderness,Arkansas Flat
+692,Klamath Basin Wilderness,Bad Lands
+693,Klamath Basin Wilderness,Barnes Valley Creek (mid)
+694,Klamath Basin Wilderness,Barnes Valley Creek (upper)
+695,Klamath Basin Wilderness,Barry Point
+696,Klamath Basin Wilderness,Box Springs
+697,Klamath Basin Wilderness,Brown Creek
+698,Klamath Basin Wilderness,Bryant Mountains
+699,Klamath Basin Wilderness,Chock toot Creek
+700,Klamath Basin Wilderness,Crystal Spring-Malone Springs
+701,Klamath Basin Wilderness,Devil Lake
+702,Klamath Basin Wilderness,Devils Garden
+703,Klamath Basin Wilderness,Dicks Spring
+704,Klamath Basin Wilderness,Fishhole Lakes
+705,Klamath Basin Wilderness,Fivemile Creek
+706,Klamath Basin Wilderness,Fourmile Creek
+707,Klamath Basin Wilderness,Gearhart Mountain Additions
+708,Klamath Basin Wilderness,Nottin Creek
+709,Klamath Basin Wilderness,Gerber Rim
+710,Klamath Basin Wilderness,Goodlow Rim
+711,Klamath Basin Wilderness,Haystack Draw
+712,Klamath Basin Wilderness,Horse Camp Rim
+713,Klamath Basin Wilderness,J Spring
+714,Klamath Basin Wilderness,Klamath River
+715,Klamath Basin Wilderness,Long Branch Creek
+716,Klamath Basin Wilderness,Lower Sycan River
+717,Klamath Basin Wilderness,Merritt Creek
+718,Klamath Basin Wilderness,Miller Creek
+719,Klamath Basin Wilderness,Modoc Mountain
+720,Klamath Basin Wilderness,Modoc Point
+721,Klamath Basin Wilderness,Norcross Springs
+722,Klamath Basin Wilderness,North Chiloquin Ridge
+723,Klamath Basin Wilderness,Paddock Butte
+724,Klamath Basin Wilderness,Paradise Creek
+725,Klamath Basin Wilderness,Pole Creek
+726,Klamath Basin Wilderness,Preacher Flat
+727,Klamath Basin Wilderness,RNA Spring
+728,Klamath Basin Wilderness,Rock Creek
+729,Klamath Basin Wilderness,Rogger Peak
+730,Klamath Basin Wilderness,Round Butte
+731,Klamath Basin Wilderness,Round Valley
+732,Klamath Basin Wilderness,Saddle Mountain
+733,Klamath Basin Wilderness,Shake Creek
+734,Klamath Basin Wilderness,Silver Dollar Flat
+735,Klamath Basin Wilderness,South Chiloquin Ridge
+736,Klamath Basin Wilderness,South Sycan Flat
+737,Klamath Basin Wilderness,Sprague River
+738,Klamath Basin Wilderness,Stump Pond
+739,Klamath Basin Wilderness,Swan Lake Rim
+740,Klamath Basin Wilderness,Sycan Flat
+741,Klamath Basin Wilderness,Sycan River
+742,Klamath Basin Wilderness,Three Creeks
+743,Klamath Basin Wilderness,Upper Dams Canyon
+744,Klamath Basin Wilderness,Upper Wildhorse Creek
+745,Klamath Basin Wilderness,Whiskey Creek
+746,Klamath Basin Wilderness,Wildhorse Creek
+747,Klamath Basin Wilderness,Wocus Bays
+748,Klamath Basin Wilderness,Ya Whee Plateau Rim
+749,Klamath Basin Wilderness,Yamsay Mountain
+750,Klamath Basin Wilderness,Yoss Creek Meadow
+751,Klamath Basin Wilderness,Yoss Ridge
+752,Metolius Wilderness,Black Butte
+753,Metolius Wilderness,Cache Mountain
+754,Metolius Wilderness,Circle Lake
+755,Metolius Wilderness,Fly Creek
+756,Metolius Wilderness,Green Ridge
+757,Metolius Wilderness,Lower Canyon Creek
+758,Metolius Wilderness,Metolius Breaks
+759,Metolius Wilderness,Mount Jefferson Additions
+760,Metolius Wilderness,Bear Valley
+761,Metolius Wilderness,Brush Creek
+762,Metolius Wilderness,Parker Creek Lava Flow
+763,Metolius Wilderness,Round Lake
+764,Metolius Wilderness,Mount Washington Additions
+765,Metolius Wilderness,Dugout Lake
+766,Metolius Wilderness,Squaw Back Ridge
+767,Metolius Wilderness,Stevens Canyon
+768,Newberry Volcano Wilderness,Aspen Flat
+769,Newberry Volcano Wilderness,Benham Falls
+770,Newberry Volcano Wilderness,Burnt Butte
+771,Newberry Volcano Wilderness,Coyote Flat
+772,Newberry Volcano Wilderness,East Pine Mountain
+773,Newberry Volcano Wilderness,Firestone Butte
+774,Newberry Volcano Wilderness,Lava Butte
+775,Newberry Volcano Wilderness,Lava Cast Forest
+776,Newberry Volcano Wilderness,Lava River Cave
+777,Newberry Volcano Wilderness,Long Butte
+778,Newberry Volcano Wilderness,Lower Ground Hog Butte
+779,Newberry Volcano Wilderness,Lower Sugar Pine Butte
+780,Newberry Volcano Wilderness,Mokst Butte
+781,Newberry Volcano Wilderness,Nameless Lava
+782,Newberry Volcano Wilderness,North Paulina Peak
+783,Newberry Volcano Wilderness,North Pot Holes
+784,Newberry Volcano Wilderness,Paulina Creek
+785,Newberry Volcano Wilderness,Paulina Peak
+786,Newberry Volcano Wilderness,Pine Mountain Summit
+787,Newberry Volcano Wilderness,Pumice Springs
+788,Newberry Volcano Wilderness,Sand Butte
+789,Newberry Volcano Wilderness,Scattered Lava
+790,Newberry Volcano Wilderness,Stu Garrett
+791,Newberry Volcano Wilderness,Sugar Pine Ridge
+792,Newberry Volcano Wilderness,Surveyor's Lava Flow
+793,Newberry Volcano Wilderness,Topso Butte
+794,Newberry Volcano Wilderness,West Lava Cast Forest
+795,Newberry Volcano Wilderness,West of Sand Spring
+796,Blue Mountains Wilderness,Black Mountain
+797,Blue Mountains Wilderness,Blue Kettle Ridge
+798,Blue Mountains Wilderness,Bologna Basin
+799,Blue Mountains Wilderness,Crow Ridge
+800,Blue Mountains Wilderness,Dark Canyon
+801,Blue Mountains Wilderness,Doghouse
+802,Blue Mountains Wilderness,Dry Creek
+803,Blue Mountains Wilderness,Fivemile Creek
+804,Blue Mountains Wilderness,Forks of the Walla Walla
+805,Blue Mountains Wilderness,Happy Jack
+806,Blue Mountains Wilderness,Hellhole
+807,Blue Mountains Wilderness,Horse Heaven Ridge
+808,Blue Mountains Wilderness,Horseshoe Ridge
+809,Blue Mountains Wilderness,Indian Creek
+810,Blue Mountains Wilderness,Jones Canyon
+811,Blue Mountains Wilderness,Jussard Creek
+812,Blue Mountains Wilderness,Keith Canyon
+813,Blue Mountains Wilderness,Kelly Mountain
+814,Blue Mountains Wilderness,Klondike Springs
+815,Blue Mountains Wilderness,Lane Creek
+816,Blue Mountains Wilderness,Mahogany Butte
+817,Blue Mountains Wilderness,Mill Creek
+818,Blue Mountains Wilderness,North Fork Umatilla Additions
+819,Blue Mountains Wilderness,North Headwaters Additions
+820,Blue Mountains Wilderness,South Headwaters Additions
+821,Blue Mountains Wilderness,Owsley Creek
+822,Blue Mountains Wilderness,Potamus Creek
+823,Blue Mountains Wilderness,Skookum Creek
+824,Blue Mountains Wilderness,Short Canyon
+825,Blue Mountains Wilderness,Sugarloaf Mountain
+826,Blue Mountains Wilderness,Tamarack Creek
+827,Blue Mountains Wilderness,Texas Butte
+828,Blue Mountains Wilderness,Thompson Falls
+829,Blue Mountains Wilderness,Thorn Spring
+830,Blue Mountains Wilderness,Tiger Creek
+831,Blue Mountains Wilderness,Turner Mountain
+832,Blue Mountains Wilderness,Upper Potamus Creek
+833,Blue Mountains Wilderness,West Birch Creek
+834,Blue Mountains Wilderness,Wildhorse Springs
+835,Blue Mountains Wilderness,Willow Springs
+836,Grande Ronde Wilderness,Bally Mountain
+837,Grande Ronde Wilderness,Beaver Creek
+838,Grande Ronde Wilderness,Big Sink Ridge
+839,Grande Ronde Wilderness,Boner Gulch
+840,Grande Ronde Wilderness,Cottonwood Creek-Broady Creek
+841,Grande Ronde Wilderness,Courtney Creek
+842,Grande Ronde Wilderness,Davis Creek
+843,Grande Ronde Wilderness,East Fork Grande Ronde River
+844,Grande Ronde Wilderness,Five Points Creek
+845,Grande Ronde Wilderness,Fly Creek
+846,Grande Ronde Wilderness,Fly Ridge
+847,Grande Ronde Wilderness,Forks of the Walla Walla
+848,Grande Ronde Wilderness,Gordon Creek
+849,Grande Ronde Wilderness,Grande Ronde Canyon
+850,Grande Ronde Wilderness,Grande Ronde Lake
+851,Grande Ronde Wilderness,Huckleberry Mountain
+852,Grande Ronde Wilderness,Indiana Creek
+853,Grande Ronde Wilderness,Joseph Canyon
+854,Grande Ronde Wilderness,Joseph Creek
+855,Grande Ronde Wilderness,Jussard Creek
+856,Grande Ronde Wilderness,Klondike Springs
+857,Grande Ronde Wilderness,Limber Jim Meadows
+858,Grande Ronde Wilderness,Little Fly Creek
+859,Grande Ronde Wilderness,Little Lookingglass Creek
+860,Grande Ronde Wilderness,Little Phillips Canyon
+861,Grande Ronde Wilderness,Lookingglass Creek
+862,Grande Ronde Wilderness,Lower Beaver Creek
+863,Grande Ronde Wilderness,Meadow Creek
+864,Grande Ronde Wilderness,Moonshine Canyon-North Mount Emily
+865,Grande Ronde Wilderness,Mount Emily
+866,Grande Ronde Wilderness,Mount Emily Creek
+867,Grande Ronde Wilderness,Red Bridge
+868,Grande Ronde Wilderness,South Fork Cabin Creek
+869,Grande Ronde Wilderness,Starkey Creek
+870,Grande Ronde Wilderness,Sugarloaf Mountain
+871,Grande Ronde Wilderness,Sumac Creek
+872,Grande Ronde Wilderness,Tope CreekMud Creek
+873,Grande Ronde Wilderness,Upper McCoy Creek
+874,Grande Ronde Wilderness,Waucup Creek
+875,Grande Ronde Wilderness,Wenaha-Tucannon Additions
+876,Grande Ronde Wilderness,Wenaha River Headwaters
+877,Grande Ronde Wilderness,White Pine Knob
+878,Grande Ronde Wilderness,Whitehorse Ridge
+879,Grande Ronde Wilderness,Wildcat Creek
+880,Grande Ronde Wilderness,Yew Wood Springs
+881,Hells Canyon Wilderness Additions,Bear Gulch
+882,Hells Canyon Wilderness Additions,Big and Little Sheep Creeks
+883,Hells Canyon Wilderness Additions,Buckhorn
+884,Hells Canyon Wilderness Additions,Chesnimnus Creek Headwaters
+885,Hells Canyon Wilderness Additions,Echo Canyon
+886,Hells Canyon Wilderness Additions,Fish Creek
+887,Hells Canyon Wilderness Additions,Gumboot Butte
+888,Hells Canyon Wilderness Additions,Hells Canyon Additions
+889,Hells Canyon Wilderness Additions,Buckhorn
+890,Hells Canyon Wilderness Additions,Crazyman Creek
+891,Hells Canyon Wilderness Additions,Homestead
+892,Hells Canyon Wilderness Additions,Imnaha Face
+893,Hells Canyon Wilderness Additions,Lord Flat
+894,Hells Canyon Wilderness Additions,Snake River Corridor
+895,Hells Canyon Wilderness Additions,Lake Fork Creek
+896,Hells Canyon Wilderness Additions,Morgan Creek
+897,Hells Canyon Wilderness Additions,North Cold Spring Mountain
+898,Hells Canyon Wilderness Additions,North Fork Dry Creek
+899,Hells Canyon Wilderness Additions,Stickney Gulch
+900,Hells Canyon Wilderness Additions,Thomason Meadows
+901,Malheur Basin Wilderness,Badger Canyon
+902,Malheur Basin Wilderness,Black Rock
+903,Malheur Basin Wilderness,Bulger Creek
+904,Malheur Basin Wilderness,Calamity Butte
+905,Malheur Basin Wilderness,Chapin Table
+906,Malheur Basin Wilderness,Chickahominy Creek
+907,Malheur Basin Wilderness,Coffeepot Creek
+908,Malheur Basin Wilderness,Cow Creek
+909,Malheur Basin Wilderness,Devine Canyon
+910,Malheur Basin Wilderness,Dipping Vat Creek
+911,Malheur Basin Wilderness,Dry Mountain
+912,Malheur Basin Wilderness,Emigrant Creek
+913,Malheur Basin Wilderness,Garret Basin Spring
+914,Malheur Basin Wilderness,Gibbons Mill Canyon
+915,Malheur Basin Wilderness,Gradon Canyon
+916,Malheur Basin Wilderness,Green Butte
+917,Malheur Basin Wilderness,Hay Creek
+918,Malheur Basin Wilderness,House Creek
+919,Malheur Basin Wilderness,Hughet Valley
+920,Malheur Basin Wilderness,Johnnie Creek
+921,Malheur Basin Wilderness,King Mountain
+922,Malheur Basin Wilderness,Linda Driskil
+923,Malheur Basin Wilderness,Link Bar Spring
+924,Malheur Basin Wilderness,Lost Creek
+925,Malheur Basin Wilderness,Lower Buck Mountain
+926,Malheur Basin Wilderness,Lower Divine Canyon
+927,Malheur Basin Wilderness,Mineral Canyon
+928,Malheur Basin Wilderness,Myrtle Creek - Silvies River
+929,Malheur Basin Wilderness,Myrtle Park Meadows
+930,Malheur Basin Wilderness,Parasol Butte
+931,Malheur Basin Wilderness,Pine Spring Basin
+932,Malheur Basin Wilderness,Professor Spring
+933,Malheur Basin Wilderness,Rail Creek
+934,Malheur Basin Wilderness,Rice Spring
+935,Malheur Basin Wilderness,Sage Hen Creek
+936,Malheur Basin Wilderness,Sawtooth Creek
+937,Malheur Basin Wilderness,Scotty Creek
+938,Malheur Basin Wilderness,Sharff Cabin Creek
+939,Malheur Basin Wilderness,Silver Creek
+940,Malheur Basin Wilderness,Stancliffe Creek
+941,Malheur Basin Wilderness,Stinger Creek
+942,Malheur Basin Wilderness,Sundown Ridge
+943,Malheur Basin Wilderness,Upper Jump Creek
+944,Malheur Basin Wilderness,Upper Mill Creek
+945,Malheur Basin Wilderness,Upper Mountain Creek
+946,Malheur Basin Wilderness,West Fork Silvies River
+947,Malheur Canyons Wilderness,Black Butte
+948,Malheur Canyons Wilderness,Calamity Creek
+949,Malheur Canyons Wilderness,Cottonwood Creek
+950,Malheur Canyons Wilderness,Craft Point
+951,Malheur Canyons Wilderness,Deardorff Creek
+952,Malheur Canyons Wilderness,Deardorff Mountain
+953,Malheur Canyons Wilderness,Duck Creek Headwaters
+954,Malheur Canyons Wilderness,Elbow Canyon
+955,Malheur Canyons Wilderness,Flag Creek
+956,Malheur Canyons Wilderness,Gabe Spring
+957,Malheur Canyons Wilderness,Glacier Mountain
+958,Malheur Canyons Wilderness,Goodwater Spring
+959,Malheur Canyons Wilderness,Gunbarrel Creek
+960,Malheur Canyons Wilderness,Huckleberry Creek
+961,Malheur Canyons Wilderness,Last Chance Creek
+962,Malheur Canyons Wilderness,Little Bear Meadow
+963,Malheur Canyons Wilderness,Little Muddy Creek
+964,Malheur Canyons Wilderness,Logan Valley
+965,Malheur Canyons Wilderness,Long Creek
+966,Malheur Canyons Wilderness,Magpie Table
+967,Malheur Canyons Wilderness,Malheur River Canyon
+968,Malheur Canyons Wilderness,Middle Willow
+969,Malheur Canyons Wilderness,Monument Rock Additions
+970,Malheur Canyons Wilderness,Bullrun Creek
+971,Malheur Canyons Wilderness,Camp Creek
+972,Malheur Canyons Wilderness,Elk Flat
+973,Malheur Canyons Wilderness,Little Malheur River
+974,Malheur Canyons Wilderness,Lookout Spring
+975,Malheur Canyons Wilderness,North Fork Malheur River
+976,Malheur Canyons Wilderness,Pine Creek
+977,Malheur Canyons Wilderness,Ragged Rock Spring
+978,Malheur Canyons Wilderness,Reynolds Creek
+979,Malheur Canyons Wilderness,Sheep Gulch
+980,Malheur Canyons Wilderness,Schurtz Creek
+981,Malheur Canyons Wilderness,Skull Springs
+982,Malheur Canyons Wilderness,Spring Creek
+983,Malheur Canyons Wilderness,Strawberry Mountain Additions
+984,Malheur Canyons Wilderness,Meadow Fork
+985,Malheur Canyons Wilderness,Summit Rock
+986,Malheur Canyons Wilderness,Upper Blue Bucket Creek
+987,Malheur Canyons Wilderness,Upper Malheur River
+988,Malheur Canyons Wilderness,Van Gulch
+989,North Fork John Day-Elkhorns Wilderness,Antone Creek
+990,North Fork John Day-Elkhorns Wilderness,Arch Rock
+991,North Fork John Day-Elkhorns Wilderness,Battle Creek
+992,North Fork John Day-Elkhorns Wilderness,Bear Butte
+993,North Fork John Day-Elkhorns Wilderness,Bear Wallow Springs
+994,North Fork John Day-Elkhorns Wilderness,Beaver Dam Creek
+995,North Fork John Day-Elkhorns Wilderness,Big Creek
+996,North Fork John Day-Elkhorns Wilderness,Big Springs
+997,North Fork John Day-Elkhorns Wilderness,Black Mountain
+998,North Fork John Day-Elkhorns Wilderness,Bone Point
+999,North Fork John Day-Elkhorns Wilderness,Bridge Creek
+1000,North Fork John Day-Elkhorns Wilderness,Case Ridge
+1001,North Fork John Day-Elkhorns Wilderness,China Creek
+1002,North Fork John Day-Elkhorns Wilderness,Clear Creek
+1003,North Fork John Day-Elkhorns Wilderness,Cornet Creek
+1004,North Fork John Day-Elkhorns Wilderness,Crawford Creek
+1005,North Fork John Day-Elkhorns Wilderness,Czar Springs
+1006,North Fork John Day-Elkhorns Wilderness,Davis Creek
+1007,North Fork John Day-Elkhorns Wilderness,Dean Creek
+1008,North Fork John Day-Elkhorns Wilderness,Deep Canyon
+1009,North Fork John Day-Elkhorns Wilderness,Desolation Creek
+1010,North Fork John Day-Elkhorns Wilderness,Dixie Butte
+1011,North Fork John Day-Elkhorns Wilderness,Fly Creek
+1012,North Fork John Day-Elkhorns Wilderness,Forks of Cable Creek-Hidaway Meadows
+1013,North Fork John Day-Elkhorns Wilderness,Fox Creek
+1014,North Fork John Day-Elkhorns Wilderness,Greenhorn Mountain Unit Additions (Greenhorn Mountains)
+1015,North Fork John Day-Elkhorns Wilderness,Hinton Creek
+1016,North Fork John Day-Elkhorns Wilderness,Horse Canyon
+1017,North Fork John Day-Elkhorns Wilderness,Hunt Mountain
+1018,North Fork John Day-Elkhorns Wilderness,Idaho Creek
+1019,North Fork John Day-Elkhorns Wilderness,Indian Creek
+1020,North Fork John Day-Elkhorns Wilderness,Jumpoff Joe Peak
+1021,North Fork John Day-Elkhorns Wilderness,Keeney Meadows
+1022,North Fork John Day-Elkhorns Wilderness,Lamb Creek
+1023,North Fork John Day-Elkhorns Wilderness,Long Creek Municipal Watershed
+1024,North Fork John Day-Elkhorns Wilderness,Long Meadow
+1025,North Fork John Day-Elkhorns Wilderness,Lost Boy
+1026,North Fork John Day-Elkhorns Wilderness,Lunch Creek
+1027,North Fork John Day-Elkhorns Wilderness,Marble Point
+1028,North Fork John Day-Elkhorns Wilderness,Middle North Fork John Day River Unit Additions
+1029,North Fork John Day-Elkhorns Wilderness,Granite Creek Headwaters
+1030,North Fork John Day-Elkhorns Wilderness,Howard Creek
+1031,North Fork John Day-Elkhorns Wilderness,Martin Creek
+1032,North Fork John Day-Elkhorns Wilderness,Moon Meadow
+1033,North Fork John Day-Elkhorns Wilderness,Rabbit Creek Headwaters
+1034,North Fork John Day-Elkhorns Wilderness,Silver Butte
+1035,North Fork John Day-Elkhorns Wilderness,Upper North Fork John Day River
+1036,North Fork John Day-Elkhorns Wilderness,Mud Spring
+1037,North Fork John Day-Elkhorns Wilderness,Mulkey Springs
+1038,North Fork John Day-Elkhorns Wilderness,Nipple Butte
+1039,North Fork John Day-Elkhorns Wilderness,Pasture Creek
+1040,North Fork John Day-Elkhorns Wilderness,Patrick Creek
+1041,North Fork John Day-Elkhorns Wilderness,Pogue Mountain
+1042,North Fork John Day-Elkhorns Wilderness,Pole Bridge Creek
+1043,North Fork John Day-Elkhorns Wilderness,Resiliency Butte
+1044,North Fork John Day-Elkhorns Wilderness,Rock Creek Butte
+1045,North Fork John Day-Elkhorns Wilderness,Skinner Creek
+1046,North Fork John Day-Elkhorns Wilderness,South Fork Long Creek
+1047,North Fork John Day-Elkhorns Wilderness,Stices Creek
+1048,North Fork John Day-Elkhorns Wilderness,Thompson Gulch
+1049,North Fork John Day-Elkhorns Wilderness,Tope Spring
+1050,North Fork John Day-Elkhorns Wilderness,Trail Creek
+1051,North Fork John Day-Elkhorns Wilderness,Trout Creek
+1052,North Fork John Day-Elkhorns Wilderness,Twisted Rush
+1053,North Fork John Day-Elkhorns Wilderness,Upper China Creek
+1054,North Fork John Day-Elkhorns Wilderness,Upper Frosty Gulch
+1055,North Fork John Day-Elkhorns Wilderness,Upper North Fork John Day River Unit Additions
+1056,North Fork John Day-Elkhorns Wilderness,Cabell Meadow
+1057,North Fork John Day-Elkhorns Wilderness,Elkhorn Ridge
+1058,North Fork John Day-Elkhorns Wilderness,South Mount Ireland
+1059,North Fork John Day-Elkhorns Wilderness,South Columbia Hill
+1060,North Fork John Day-Elkhorns Wilderness,White Pine Knob
+1061,Ochoco Mountains Wilderness,Ashley Ridge
+1062,Ochoco Mountains Wilderness,Badger Creek
+1063,Ochoco Mountains Wilderness,Begg Creek
+1064,Ochoco Mountains Wilderness,Bellworm Canyon
+1065,Ochoco Mountains Wilderness,Bridge Creek Additions
+1066,Ochoco Mountains Wilderness,East Point
+1067,Ochoco Mountains Wilderness,Maxwell Creek
+1068,Ochoco Mountains Wilderness,Broadway Lava
+1069,Ochoco Mountains Wilderness,Bull Mountain
+1070,Ochoco Mountains Wilderness,Cottonwood Creek
+1071,Ochoco Mountains Wilderness,Cougar Creek
+1072,Ochoco Mountains Wilderness,Deer Creek
+1073,Ochoco Mountains Wilderness,Dingus Springs
+1074,Ochoco Mountains Wilderness,Dodds Creek
+1075,Ochoco Mountains Wilderness,Dutchman Flat
+1076,Ochoco Mountains Wilderness,Grassy Butte
+1077,Ochoco Mountains Wilderness,Green Mountain
+1078,Ochoco Mountains Wilderness,Hammer Creek
+1079,Ochoco Mountains Wilderness,Hardscrabble Ridge
+1080,Ochoco Mountains Wilderness,Hickey Creek
+1081,Ochoco Mountains Wilderness,Indian Creek
+1082,Ochoco Mountains Wilderness,Little Round Prairie
+1083,Ochoco Mountains Wilderness,Lookout Mountain
+1084,Ochoco Mountains Wilderness,Mill Creek Additions
+1085,Ochoco Mountains Wilderness,Fintcher Creek
+1086,Ochoco Mountains Wilderness,Wildcat Creek Headwaters
+1087,Ochoco Mountains Wilderness,Mount Pisgah
+1088,Ochoco Mountains Wilderness,North Bear Creek
+1089,Ochoco Mountains Wilderness,North Fork Crooked River
+1090,Ochoco Mountains Wilderness,Ochoco Divide
+1091,Ochoco Mountains Wilderness,Peterson Lava
+1092,Ochoco Mountains Wilderness,Rough Canyon
+1093,Ochoco Mountains Wilderness,Round Mountain
+1094,Ochoco Mountains Wilderness,Salt Butte
+1095,Ochoco Mountains Wilderness,Steins Pillar
+1096,Ochoco Mountains Wilderness,Tamarack Creek
+1097,Ochoco Mountains Wilderness,Williams Prairie
+1098,Ochoco Mountains Wilderness,Zany Fox
+1099,South Fork John Day Wilderness,Antelope Creek
+1100,South Fork John Day Wilderness,Ashley Ridge
+1101,South Fork John Day Wilderness,Bear Tree Springs
+1102,South Fork John Day Wilderness,Begg Creek
+1103,South Fork John Day Wilderness,Black Canyon Additions
+1104,South Fork John Day Wilderness,Bear SkullKelsey Spring
+1105,South Fork John Day Wilderness,Cottonwood Creek
+1106,South Fork John Day Wilderness,Wolf Mountain
+1107,South Fork John Day Wilderness,Blue Ridge Spring
+1108,South Fork John Day Wilderness,Burnt Mountain
+1109,South Fork John Day Wilderness,Cougar Creek
+1110,South Fork John Day Wilderness,Cougar Mountain
+1111,South Fork John Day Wilderness,Devils Creek
+1112,South Fork John Day Wilderness,Gilbert Ridge
+1113,South Fork John Day Wilderness,Hardscrabble Ridge
+1114,South Fork John Day Wilderness,Horse Mountain
+1115,South Fork John Day Wilderness,Johnnie Creek
+1116,South Fork John Day Wilderness,Lewis Officer Creek
+1117,South Fork John Day Wilderness,Lower Murderers Creek
+1118,South Fork John Day Wilderness,Murderers Creek
+1119,South Fork John Day Wilderness,Sharff Cabin Creek
+1120,South Fork John Day Wilderness,Snow Mountain
+1121,South Fork John Day Wilderness,South Fork Deer Creek
+1122,South Fork John Day Wilderness,Spanish Peak
+1123,South Fork John Day Wilderness,Upper Murderers Creek
+1124,South Fork John Day Wilderness,Venator Creek
+1125,South Fork John Day Wilderness,Wildcat Gulch
+1126,South Fork John Day Wilderness,Wind Creek
+1127,Upper John Day Wilderness,Belshaw Creek
+1128,Upper John Day Wilderness,Cottonwood Creek
+1129,Upper John Day Wilderness,Cummings Creek
+1130,Upper John Day Wilderness,Deardorff Creek
+1131,Upper John Day Wilderness,Dixie Butte
+1132,Upper John Day Wilderness,Fall Mountain
+1133,Upper John Day Wilderness,Grouse Creek
+1134,Upper John Day Wilderness,Hanscomb Mountain
+1135,Upper John Day Wilderness,Huckleberry Creek
+1136,Upper John Day Wilderness,Johnson Saddle
+1137,Upper John Day Wilderness,Keeney Meadows
+1138,Upper John Day Wilderness,Laycock Creek
+1139,Upper John Day Wilderness,McClellan Mountain
+1140,Upper John Day Wilderness,Nipple Butte
+1141,Upper John Day Wilderness,Reynolds Creek
+1142,Upper John Day Wilderness,Sagebrush Springs
+1143,Upper John Day Wilderness,South Fox Creek
+1144,Upper John Day Wilderness,Strawberry Mountain Additions
+1145,Upper John Day Wilderness,Crescent Creek
+1146,Upper John Day Wilderness,Frazier Nichol
+1147,Upper John Day Wilderness,Little Canyon Mountain
+1148,Upper John Day Wilderness,Little Indian Creek
+1149,Upper John Day Wilderness,Pine Creek
+1150,Upper John Day Wilderness,Sheep Gulch
+1151,Upper John Day Wilderness,Strawberry Creek
+1152,Upper John Day Wilderness,Vance Creek
+1153,Upper John Day Wilderness,Wickiup Creek
+1154,Upper John Day Wilderness,Wildcat Canyon
+1155,Wallowa Mountains Wilderness,Castle Ridge
+1156,Wallowa Mountains Wilderness,Cougar Creek
+1157,Wallowa Mountains Wilderness,Eagle Cap Additions
+1158,Wallowa Mountains Wilderness,Bear Creek-Huckleberry Mountain
+1159,Wallowa Mountains Wilderness,Catherine Creek Headwaters
+1160,Wallowa Mountains Wilderness,Eagle Creek Headwaters
+1161,Wallowa Mountains Wilderness,Lick Creek
+1162,Wallowa Mountains Wilderness,Lostine River
+1163,Wallowa Mountains Wilderness,Lower McCully Creek
+1164,Wallowa Mountains Wilderness,Northeast Additions
+1165,Wallowa Mountains Wilderness,Northwest Additions
+1166,Wallowa Mountains Wilderness,Pine Creek Headwaters
+1167,Wallowa Mountains Wilderness,South Imnaha Slope
+1168,Wallowa Mountains Wilderness,Goose Creek
+1169,Wallowa Mountains Wilderness,Grave Creek-Deer Creek
+1170,Wallowa Mountains Wilderness,Lake Fork Creek
+1171,Wallowa Mountains Wilderness,Lick Creek
+1172,Wallowa Mountains Wilderness,Lower Eagle Creek
+1173,Wallowa Mountains Wilderness,Mount Howard
+1174,Wallowa Mountains Wilderness,Mud Lake
+1175,Wallowa Mountains Wilderness,Sawmill Creek
+1176,Wallowa Mountains Wilderness,Skull Creek
+1177,Wallowa Mountains Wilderness,South Fork Catherine Creek
+1178,Wallowa Mountains Wilderness,Summit Creek
+1179,Wallowa Mountains Wilderness,Upper Summit Creek
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
