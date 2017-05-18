@@ -25,6 +25,7 @@ pW.features.forEach(function(feature) {
 eco.features.forEach(function(eregion) {
   if (regionFeatureCollections[eregion.properties.US_L3NAME]) {
     eregion.properties.eId = regionFeatureCollections[eregion.properties.US_L3NAME].eId;
+    eregion.properties.acres = (regionFeatureCollections[eregion.properties.US_L3NAME].acres).toFixed();
     fs.writeFile('pwilderness/result/' +
       eregion.properties.eId + '.json',
       JSON.stringify((regionFeatureCollections[eregion.properties.US_L3NAME])));
@@ -38,11 +39,13 @@ function assignToRegion(point, feature) {
     if (turf.inside(point, eregion)) {
       if (regionFeatureCollections[eregion.properties.US_L3NAME]) {
         regionFeatureCollections[eregion.properties.US_L3NAME].features.push(gp.parse(feature, 4));
+        regionFeatureCollections[eregion.properties.US_L3NAME].acres += feature.properties.Acres;
       } else {
         regionFeatureCollections[eregion.properties.US_L3NAME] = {
             type: 'FeatureCollection',
             ecoregion: eregion.properties.US_L3NAME,
             eId: eregion.properties.US_L3NAME.replace(/[\s\/]+/g,''),
+            acres: feature.properties.Acres,
             features: [gp.parse(feature, 4)]
           }
       }
