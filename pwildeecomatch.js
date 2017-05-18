@@ -26,6 +26,7 @@ eco.features.forEach(function(eregion) {
   if (regionFeatureCollections[eregion.properties.US_L3NAME]) {
     eregion.properties.eId = regionFeatureCollections[eregion.properties.US_L3NAME].eId;
     eregion.properties.acres = (regionFeatureCollections[eregion.properties.US_L3NAME].acres).toFixed();
+    eregion.properties.howlHasFeaturePopUp = true;
     fs.writeFile('pwilderness/result/' +
       eregion.properties.eId + '.json',
       JSON.stringify((regionFeatureCollections[eregion.properties.US_L3NAME])));
