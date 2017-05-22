@@ -51,6 +51,10 @@ function assignToRegion(point, feature) {
           }
       }
       //console.log('hey', feature.properties.AREA_NAMES + ' is in ecoregion ' + regionFeatureCollections[eregion.properties.US_L3NAME].eId);
+      feature.properties.howlHasFeaturePopUp = true;
+      feature.properties.howlOverridePopUpContent =
+        feature.properties.AREA_NAMES + ' (' +
+        (feature.properties.Acres).toFixed() + ' Acres)'
       assigned = true;
       return;
     }
