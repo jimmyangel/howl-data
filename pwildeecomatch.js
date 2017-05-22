@@ -54,7 +54,7 @@ function assignToRegion(point, feature) {
       feature.properties.howlHasFeaturePopUp = true;
       feature.properties.howlOverridePopUpContent =
         feature.properties.AREA_NAMES + ' (' +
-        (feature.properties.Acres).toFixed() + ' Acres)'
+        (feature.properties.Acres).toLocaleString('en-US', {maximumFractionDigits: 0}) + ' Acres)';
       assigned = true;
       return;
     }
