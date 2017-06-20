@@ -21,9 +21,11 @@ for (var i=0; i<wa.features.length; i++) {
     wa.features[i].properties = {
       type: 'wilderness',
       name: xg.wilderness[unitIndex].unit,
-      crossingDate: xg.wilderness[unitIndex].date,
-      fill: '#aaee88',
-      'fill-opacity': 0.8
+      entryDate: xg.wilderness[unitIndex].date,
+      fill: '#08ff00',
+      'fill-opacity': 0.8,
+      howlHasFeaturePopUp: true,
+      howlOverridePopUpContent: xg.wilderness[unitIndex].unit
     };
     result.features.push(wa.features[i]);
     //wa.features[i].properties.crossingDate = xg.wilderness[unitIndex].date;
@@ -41,15 +43,19 @@ for (var i=0; i<pw.features.length; i++) {
     pw.features[i].properties = {
       type: 'pwilderness',
       name: xg.pwilderness[unitIndex].unit,
-      crossingDate: xg.pwilderness[unitIndex].date,
-      fill: '#aaee88',
-      'fill-opacity': 0.8
+      entryDate: xg.pwilderness[unitIndex].date,
+      fill: '#d0ff00',
+      'fill-opacity': 0.8,
+      howlHasFeaturePopUp: true,
+      howlOverridePopUpContent: xg.pwilderness[unitIndex].unit
     };
     result.features.push(pw.features[i]);
     //wa.features[i].properties.crossingDate = xg.wilderness[unitIndex].date;
     //console.log(i, wa.features[i].properties.name, wa.features[i].properties.crossingDate);
   }
 }
+
+result = turf.flatten(result);
 console.log(JSON.stringify(result));
 //console.log(JSON.stringify(result, null, 2));
 
