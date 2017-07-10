@@ -25,7 +25,8 @@ for (var i=0; i<wa.features.length; i++) {
       fill: '#08ff00',
       'fill-opacity': 0.8,
       howlHasFeaturePopUp: true,
-      howlOverridePopUpContent: xg.wilderness[unitIndex].unit
+      howlOverridePopUpContent: xg.wilderness[unitIndex].unit,
+      areaType: 'wilderness'
     };
     result.features.push(wa.features[i]);
     //wa.features[i].properties.crossingDate = xg.wilderness[unitIndex].date;
@@ -47,7 +48,8 @@ for (var i=0; i<pw.features.length; i++) {
       fill: '#d0ff00',
       'fill-opacity': 0.8,
       howlHasFeaturePopUp: true,
-      howlOverridePopUpContent: xg.pwilderness[unitIndex].unit
+      howlOverridePopUpContent: xg.pwilderness[unitIndex].unit,
+      areaType: 'wilderness'
     };
     result.features.push(pw.features[i]);
     //wa.features[i].properties.crossingDate = xg.wilderness[unitIndex].date;
