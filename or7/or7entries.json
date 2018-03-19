@@ -1,0 +1,106 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.34556823007436,
+          44.701086052968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entryDate": "09/30/2011",
+        "entryInfo": "Dispersal",
+        "entrySource": "or7expedition"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.24290105068484,
+          45.01526015574892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entryDate": "12/15/2011",
+        "entryInfo": "Exit wander area",
+        "entrySource": "or7expedition"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.103460896997,
+          42.42977976195458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entryDate": "12/28/2011",
+        "entryInfo": "Enter CA",
+        "entrySource": "or7expedition"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.86813482492646,
+          41.992873277565906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entryDate": "01/01/2012",
+        "entryInfo": "Enter CA wandering area",
+        "entrySource": "or7expedition"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.68201917325783,
+          41.81284149407068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entryDate": "04/20/2013",
+        "entryInfo": "Re-enter OR",
+        "entrySource": "or7expedition"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.17071533203125,
+          42.00950942549377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entryDate": "05/01/2013",
+        "entryInfo": "Enter residence area",
+        "entrySource": "or7expedition"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.30255126953126,
+          42.54701017547381
+        ]
+      }
+    }
+  ]
+}
