@@ -1,5 +1,9 @@
 const http = require('https');
 const cheerio = require('cheerio');
+var shapefile = require('shapefile');
+var gp = require('geojson-precision');
+var ThrottledPromise = require('throttled-promise');
+var MAX_PROMISES = 5;
 // var ThrottledPromise = require('throttled-promise');
 
 // var shapefile = require('shapefile');
@@ -20,13 +24,13 @@ retrieveList(host + path + state + '/').then(listData => {
       //console.log('+++ Fire:', name, 'Url', host + link);
 
       let dp = (function () {
-        return new Promise((resolve, reject) => {
+        return new ThrottledPromise((resolve, reject) => {
           retrieveList(host + link).then(listData => {
             let $ = cheerio.load(listData);
             let fireRecord = {fireName: name, fireLink: link, fireReports: []};
             $('a').each(function () {
               let rlink = $(this).attr('href');
-              if ((rlink != path + state) + '/' && (rlink.endsWith('.dbf'))) {
+              if ((rlink != path + state) + '/' && (rlink.endsWith('.shp'))) {
                 let xdate = rlink.substr(link.length + name.length + 4).substr(0, 13);
                 //console.log(xdate);
                 //let xdate = rlink.substr(rlink.length - 22).substr(0, 13);
@@ -43,8 +47,8 @@ retrieveList(host + path + state + '/').then(listData => {
       p.push(dp);
     }
   });
-  Promise.all(p).then(values => {
-    console.log('done', JSON.stringify(values, null, 2));
+  ThrottledPromise.all(p, MAX_PROMISES).then(values => {
+    convertToGeoJson(values);
   }).catch((err) => {
     console.log('Error', err);
   });
@@ -69,5 +73,32 @@ function retrieveList(url) {
       reject(err)
     });
 
+  });
+}
+
+function convertToGeoJson(fireRecords) {
+
+  let p = [];
+  fireRecords.forEach(function (fireRecord) {
+    fireRecord.fireReports.forEach(function (fireReport) {
+      let dp = (function (fireRecord, fireReport) {
+        return new ThrottledPromise((resolve, reject) => {
+          http.get(host + fireReport.fireReportLink, (res) => {
+            shapefile.read(res).then(function (result) {
+              console.log(fireRecord.fireName, fireReport.fireReportDate);
+              result.bbox = result.bbox.map(x => Number(x.toFixed(3)));
+              console.log(result.bbox);
+              //console.log(JSON.stringify(gp(result, 3), null, 2));
+              resolve();
+              //console.log(JSON.stringify(gp(result, 3), null, 2));
+            }).catch(error => console.error(error.stack));
+          });
+        });
+      })(fireRecord, fireReport);
+      p.push(dp);
+    });
+  });
+  ThrottledPromise.all(p, MAX_PROMISES).then(() => {
+    console.log('I am done');
   });
 }
