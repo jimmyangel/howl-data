@@ -1,18 +1,25 @@
 const http = require('https');
 const cheerio = require('cheerio');
-var shapefile = require('shapefile');
-var gp = require('geojson-precision');
-var ThrottledPromise = require('throttled-promise');
-var MAX_PROMISES = 5;
+const fs = require('fs');
+const rimraf = require('rimraf');
+const shapefile = require('shapefile');
+const simplify = require('simplify-geojson');
+const turf = require('@turf/turf');
+const gp = require('geojson-precision');
+const ThrottledPromise = require('throttled-promise');
+const MAX_PROMISES = 5;
 // var ThrottledPromise = require('throttled-promise');
 
 // var shapefile = require('shapefile');
 
 console.warn('parseGeoMAC');
 
-var host = 'https://rmgsc.cr.usgs.gov';
-var path = '/outgoing/GeoMAC/2017_fire_data/';
-var state = 'Oregon';
+const host = 'https://rmgsc.cr.usgs.gov';
+const path = '/outgoing/GeoMAC/2017_fire_data/';
+const state = 'Oregon';
+
+rimraf.sync('rcwildfires-data');
+fs.mkdirSync('rcwildfires-data');
 
 retrieveList(host + path + state + '/').then(listData => {
   let $ = cheerio.load(listData);
@@ -20,14 +27,15 @@ retrieveList(host + path + state + '/').then(listData => {
   $('a').each(function () {
     let link = $(this).attr('href');
     if (link != path) {
-      var name = link.substring(link.indexOf(path) + (path + state).length + 1, link.length - 1).replace(/_/g, ' ');
+      let fileName = link.substring(link.indexOf(path) + (path + state).length + 1, link.length - 1);
+      let name = fileName.replace(/_/g, ' ');
       //console.log('+++ Fire:', name, 'Url', host + link);
 
       let dp = (function () {
         return new ThrottledPromise((resolve, reject) => {
           retrieveList(host + link).then(listData => {
             let $ = cheerio.load(listData);
-            let fireRecord = {fireName: name, fireLink: link, fireReports: []};
+            let fireRecord = {fireName: name, fireFileName: fileName, fireLink: link, fireReports: [], fireMaxAcres: 0, bbox: [180, 90, -180, -90], location: [0, 0]};
             $('a').each(function () {
               let rlink = $(this).attr('href');
               if ((rlink != path + state) + '/' && (rlink.endsWith('.shp'))) {
@@ -48,7 +56,7 @@ retrieveList(host + path + state + '/').then(listData => {
     }
   });
   ThrottledPromise.all(p, MAX_PROMISES).then(values => {
-    convertToGeoJson(values);
+    processFireRecords(values);
   }).catch((err) => {
     console.log('Error', err);
   });
@@ -59,7 +67,7 @@ function retrieveList(url) {
   return new Promise((resolve, reject) => {
 
     http.get(url, (res) => {
-      var result = '';
+      let result = '';
       res.on('data', (chunk) => {
         result += chunk;
       });
@@ -76,29 +84,91 @@ function retrieveList(url) {
   });
 }
 
-function convertToGeoJson(fireRecords) {
+function processFireRecords(fireRecords) {
 
   let p = [];
   fireRecords.forEach(function (fireRecord) {
+    let dp = fireRecordTask(fireRecord);
+    p.push(dp);
+  });
+  ThrottledPromise.all(p, 2).then(() => {
+    console.log('I am done done');
+    fireRecords = fireRecords.filter(fireRecord => fireRecord.fireMaxAcres > 1000);
+    fs.writeFile('rcwildfires-data/2017fireRecords.json', JSON.stringify(fireRecords, null, 2), (error) => {
+      if (error) {
+        console.error(error);
+        throw(error);
+      }
+    });
+  }).catch(error => {
+    console.log('processFireRecords', error.stack);
+  });
+}
+
+function fireRecordTask (fireRecord) {
+  let p = [];
+  return new ThrottledPromise((resolve, reject) => {
     fireRecord.fireReports.forEach(function (fireReport) {
-      let dp = (function (fireRecord, fireReport) {
-        return new ThrottledPromise((resolve, reject) => {
-          http.get(host + fireReport.fireReportLink, (res) => {
-            shapefile.read(res).then(function (result) {
-              console.log(fireRecord.fireName, fireReport.fireReportDate);
-              result.bbox = result.bbox.map(x => Number(x.toFixed(3)));
-              console.log(result.bbox);
-              //console.log(JSON.stringify(gp(result, 3), null, 2));
-              resolve();
-              //console.log(JSON.stringify(gp(result, 3), null, 2));
-            }).catch(error => console.error(error.stack));
-          });
-        });
-      })(fireRecord, fireReport);
+      let dp = fireReportTask(fireRecord, fireReport);
       p.push(dp);
     });
+    ThrottledPromise.all(p, 3).then((geoJSONFireReports) => {
+      if (fireRecord.fireMaxAcres > 1000) {
+        fireRecord.location = [
+          Number(((fireRecord.bbox[0]+fireRecord.bbox[2])/2).toFixed(5)),
+          Number(((fireRecord.bbox[1]+fireRecord.bbox[3])/2).toFixed(5))
+        ];
+        fireRecord.fireMaxAcres = Number((fireRecord.fireMaxAcres).toFixed(0));
+        let wrapFireReports = {
+          fireName: fireRecord.fireName,
+          fireFileName: fireRecord.fireFileName,
+          bbox: fireRecord.bbox,
+          location: fireRecord.location,
+          maxAcres: fireRecord.fireMaxAcres,
+          fireReports: geoJSONFireReports
+        }
+        fs.writeFile('rcwildfires-data/' + fireRecord.fireFileName + '.json', JSON.stringify(wrapFireReports, null, 2), (error) => {
+          if (error) {
+            console.error(error);
+            throw(error);
+          }
+        });
+        console.log('I am done with', fireRecord.fireFileName);
+      }
+
+      resolve();
+    }).catch(error => {
+      console.log('fireRecordTask', error.stack);
+      reject(error);
+    });
   });
-  ThrottledPromise.all(p, MAX_PROMISES).then(() => {
-    console.log('I am done');
+}
+
+function fireReportTask (fireRecord, fireReport) {
+  return new ThrottledPromise((resolve, reject) => {
+
+    http.get(host + fireReport.fireReportLink.substring(0, fireReport.fireReportLink.length - 3) + 'dbf', (dres) => {
+
+      http.get(host + fireReport.fireReportLink, (res) => {
+        shapefile.read(res, dres).then(function (result) {
+          result.bbox = result.bbox.map(x => Number(x.toFixed(5)));
+          let bbox = fireRecord.bbox;
+          bbox[0] = Math.min(bbox[0], result.bbox[0]);
+          bbox[1] = Math.min(bbox[1], result.bbox[1]);
+          bbox[2] = Math.max(bbox[2], result.bbox[2]);
+          bbox[3] = Math.max(bbox[3], result.bbox[3]);
+          fireRecord.bbox = bbox;
+          console.log(fireRecord.bbox);
+          if (result.features[0].properties.GISACRES) {
+            fireRecord.fireMaxAcres = Math.max(result.features[0].properties.GISACRES, fireRecord.fireMaxAcres);
+          }
+          console.log(fireRecord.fireName, result.features[0].properties.GISACRES);
+          resolve(simplify(gp(result, 5), 0.0001));
+        }).catch(error => {
+          console.error('fireReportTask', error.stack);
+          reject(error);
+        });
+      });
+    });
   });
 }
