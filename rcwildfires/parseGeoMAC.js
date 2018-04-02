@@ -9,17 +9,19 @@ const gp = require('geojson-precision');
 const ThrottledPromise = require('throttled-promise');
 const MAX_PROMISES = 5;
 // var ThrottledPromise = require('throttled-promise');
+const YEAR = 2017; // We will make this a parm later
 
 // var shapefile = require('shapefile');
 
 console.warn('parseGeoMAC');
 
 const host = 'https://rmgsc.cr.usgs.gov';
-const path = '/outgoing/GeoMAC/2017_fire_data/';
+const path = '/outgoing/GeoMAC/' + YEAR + '_fire_data/';
 const state = 'Oregon';
 
 rimraf.sync('rcwildfires-data');
-fs.mkdirSync('rcwildfires-data');
+fs.mkdirSync('rcwildfires-data/');
+fs.mkdirSync('rcwildfires-data/' + YEAR);
 
 retrieveList(host + path + state + '/').then(listData => {
   let $ = cheerio.load(listData);
@@ -35,7 +37,7 @@ retrieveList(host + path + state + '/').then(listData => {
         return new ThrottledPromise((resolve, reject) => {
           retrieveList(host + link).then(listData => {
             let $ = cheerio.load(listData);
-            let fireRecord = {fireName: name, fireFileName: fileName, fireLink: link, fireReports: [], fireMaxAcres: 0, bbox: [180, 90, -180, -90], location: [0, 0]};
+            let fireRecord = {fireYear: YEAR, fireName: name, fireFileName: fileName, fireLink: link, fireReports: [], fireMaxAcres: 0, bbox: [180, 90, -180, -90], location: [0, 0]};
             $('a').each(function () {
               let rlink = $(this).attr('href');
               if ((rlink != path + state) + '/' && (rlink.endsWith('.shp'))) {
@@ -94,7 +96,13 @@ function processFireRecords(fireRecords) {
   ThrottledPromise.all(p, 2).then(() => {
     console.log('I am done done');
     fireRecords = fireRecords.filter(fireRecord => fireRecord.fireMaxAcres > 1000);
-    fs.writeFile('rcwildfires-data/2017fireRecords.json', JSON.stringify(fireRecords, null, 2), (error) => {
+
+    for (var i=0; i <fireRecords.length; i++)  {
+      // We do not need these anymore
+      delete fireRecords[i].fireReports;
+      delete fireRecords[i].fireLink;
+    }
+    fs.writeFile('rcwildfires-data/' + YEAR + 'fireRecords.json', JSON.stringify(fireRecords, null, 2), (error) => {
       if (error) {
         console.error(error);
         throw(error);
@@ -125,9 +133,9 @@ function fireRecordTask (fireRecord) {
           bbox: fireRecord.bbox,
           location: fireRecord.location,
           maxAcres: fireRecord.fireMaxAcres,
-          fireReports: geoJSONFireReports
+          fireReports: {type: 'FeatureCollection', features: geoJSONFireReports}
         }
-        fs.writeFile('rcwildfires-data/' + fireRecord.fireFileName + '.json', JSON.stringify(wrapFireReports, null, 2), (error) => {
+        fs.writeFile('rcwildfires-data/' + YEAR + '/' + fireRecord.fireFileName + '.json', JSON.stringify(wrapFireReports, null, 2), (error) => {
           if (error) {
             console.error(error);
             throw(error);
@@ -163,7 +171,7 @@ function fireReportTask (fireRecord, fireReport) {
             fireRecord.fireMaxAcres = Math.max(result.features[0].properties.GISACRES, fireRecord.fireMaxAcres);
           }
           console.log(fireRecord.fireName, result.features[0].properties.GISACRES);
-          resolve(simplify(gp(result, 5), 0.0001));
+          resolve(simplify(gp(result, 5), 0.0001).features);
         }).catch(error => {
           console.error('fireReportTask', error.stack);
           reject(error);
