@@ -170,8 +170,9 @@ function fireReportTask (fireRecord, fireReport) {
           if (result.features[0].properties.GISACRES) {
             fireRecord.fireMaxAcres = Math.max(result.features[0].properties.GISACRES, fireRecord.fireMaxAcres);
           }
-          console.log(fireRecord.fireName, result.features[0].properties.GISACRES);
-          resolve(simplify(gp(result, 5), 0.0001).features);
+          result.features[0].properties.fireReportDate = fireReport.fireReportDate;
+          console.log(fireRecord.fireName, result.features[0].properties.fireReportDate, result.features[0].properties.GISACRES);
+          resolve(gp(result, 5).features[0]);
         }).catch(error => {
           console.error('fireReportTask', error.stack);
           reject(error);
