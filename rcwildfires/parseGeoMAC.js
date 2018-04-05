@@ -6,6 +6,7 @@ const shapefile = require('shapefile');
 const simplify = require('simplify-geojson');
 const turf = require('@turf/turf');
 const gp = require('geojson-precision');
+const topojson = require('topojson-server');
 const ThrottledPromise = require('throttled-promise');
 const MAX_PROMISES = 5;
 // var ThrottledPromise = require('throttled-promise');
@@ -127,15 +128,8 @@ function fireRecordTask (fireRecord) {
           Number(((fireRecord.bbox[1]+fireRecord.bbox[3])/2).toFixed(5))
         ];
         fireRecord.fireMaxAcres = Number((fireRecord.fireMaxAcres).toFixed(0));
-        let wrapFireReports = {
-          fireName: fireRecord.fireName,
-          fireFileName: fireRecord.fireFileName,
-          bbox: fireRecord.bbox,
-          location: fireRecord.location,
-          maxAcres: fireRecord.fireMaxAcres,
-          fireReports: {type: 'FeatureCollection', features: geoJSONFireReports}
-        }
-        fs.writeFile('rcwildfires-data/' + YEAR + '/' + fireRecord.fireFileName + '.json', JSON.stringify(wrapFireReports, null, 2), (error) => {
+        let wrapFireReports = {type: 'FeatureCollection', features: geoJSONFireReports};
+        fs.writeFile('rcwildfires-data/' + YEAR + '/' + fireRecord.fireFileName + '.json', JSON.stringify(topojson.topology({collection: wrapFireReports})), (error) => {
           if (error) {
             console.error(error);
             throw(error);
