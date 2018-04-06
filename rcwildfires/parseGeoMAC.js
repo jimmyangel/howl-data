@@ -100,7 +100,6 @@ function processFireRecords(fireRecords) {
 
     for (var i=0; i <fireRecords.length; i++)  {
       // We do not need these anymore
-      delete fireRecords[i].fireReports;
       delete fireRecords[i].fireLink;
     }
     fs.writeFile('rcwildfires-data/' + YEAR + 'fireRecords.json', JSON.stringify(fireRecords, null, 2), (error) => {
@@ -163,8 +162,13 @@ function fireReportTask (fireRecord, fireReport) {
           console.log(fireRecord.bbox);
           if (result.features[0].properties.GISACRES) {
             fireRecord.fireMaxAcres = Math.max(result.features[0].properties.GISACRES, fireRecord.fireMaxAcres);
+            fireReport.fireReportAcres = Number(result.features[0].properties.GISACRES).toFixed(0);
+          }
+          if (result.features[0].properties.inciwebId && !fireRecord.inciwebId) {
+            fireRecord.inciwebId = result.features[0].properties.inciwebId;
           }
           result.features[0].properties.fireReportDate = fireReport.fireReportDate;
+          delete fireReport.fireReportLink; // We are done with this
           console.log(fireRecord.fireName, result.features[0].properties.fireReportDate, result.features[0].properties.GISACRES);
           resolve(gp(result, 5).features[0]);
         }).catch(error => {
